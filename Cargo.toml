@@ -1,0 +1,12 @@
+[package]
+name = "cocapn-marine"
+version = "0.1.0"
+license = "MIT"
+edition = "2021"
+description = "Marine sensor integration for CoCapn — NMEA 0183, autopilot PID, bathymetric recording, deadband monitoring"
+
+[dependencies]
+serde = { version = "1", features = ["derive"], optional = true }
+thiserror = "2"
+log = "0.4"
+chrono = "0.4"
